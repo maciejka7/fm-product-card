@@ -2,12 +2,13 @@ import React from 'react'
 
 type Props = {
     oldPrice: number,
-    currentPrice: number
+    currentPrice: number,
+
 }
 
-export const Price = (props: Props) => {
+export const Price = (props: Props & Pick<React.HTMLAttributes<HTMLParagraphElement>, "className">) => {
   return (
-    <p className='flex items-center gap-4'>
+    <p className={`flex items-center gap-4 ${props.className}`}>
         <span className='text-3xl font-bold text-primary block font-fraunces'>
             ${props.currentPrice}
         </span>
