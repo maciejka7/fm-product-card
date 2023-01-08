@@ -10,6 +10,10 @@ module.exports = {
         'primary': 'hsl(158, 36%, 37%)',
         'primaryDark' : 'hsl(158, 36%, 27%)',
         'cream': 'hsl(30, 38%, 92%)'
+      },
+      fontFamily: {
+        'fraunces': 'Fraunces, serif',
+        'montserrat': 'Montserrat, sans-serif',
       }
     },
   },
