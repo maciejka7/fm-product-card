@@ -6,7 +6,7 @@ type Props = {
     handleAction: () => void,
 }
 
-const Button = (props: Props) => {
+export const Button = (props: Props) => {
   return (
     <button
         className='rounded-[7px] text-white bg-primary hover:bg-primaryDark font-bold p-3 text-center w-full flex justify-center items-center gap-2 transition-all max-w-[300px]'
@@ -16,5 +16,3 @@ const Button = (props: Props) => {
     </button>
   )
 }
-
-export default Button  
