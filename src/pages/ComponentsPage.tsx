@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card, Price } from "../components";
-import cardImage from "../../public/image-product-mobile.jpg";
+import cardImageMobile from "../../public/image-product-mobile.jpg";
+import cardImageDesktop from "../../public/image-product-desktop.jpg";
 
 type Props = {};
 
@@ -23,7 +24,7 @@ const components: { title: string; component: React.ReactElement }[] = [
     component: (
       <Card
         title="Gabrielle Essence Eau De Parfum"
-        imgSrc={cardImage}
+        imageProps={{imgSrc:  {mobile: cardImageMobile, desktop: cardImageDesktop}}}
         tag="perfume"
         description="A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL."
         currentPrice={149.99}
