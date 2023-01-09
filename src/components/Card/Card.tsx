@@ -19,7 +19,7 @@ type CardProps = {
 
 export const Card = (props: CardProps) => {
   return (
-    <section className="rounded-[9px] border shadow-sm max-w-[345px] xl:max-w-[600px] flex flex-col xl:flex-row bg-white">
+    <section role='main' className="rounded-[9px] border shadow-sm max-w-[345px] xl:max-w-[600px] flex flex-col xl:flex-row bg-white">
       <CardImg {...props.imageProps} />
       <div className="p-7 xl:px-8 xl:py-9">
         <CardTag tag={props.tag} />
