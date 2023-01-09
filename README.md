@@ -26,8 +26,8 @@ Simple card component design with mobile and desktop version of it
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/maciejka7/fm-product-card)
-- Live Site URL: [Add live site URL here](https://fm-product-card.vercel.app/)
+- Solution URL: [Github repo](https://github.com/maciejka7/fm-product-card)
+- Live Site URL: [Page on Vercel](https://fm-product-card.vercel.app/)
 
 ## My process
 
