@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <div className='text-darkCyan'>
+    <div className='text-darkCyan h-screen w-full'>
       {pathname === COMPONENTS_PATHNAME ? <ComponentsPage /> : <MainPage />} 
 
       <div className='absolute bottom-5 right-5'>

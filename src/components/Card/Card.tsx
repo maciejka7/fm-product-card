@@ -19,16 +19,16 @@ type CardProps = {
 
 export const Card = (props: CardProps) => {
   return (
-    <section className="rounded-[9px] border shadow max-w-[345px] xl:max-w-[600px]">
+    <section className="rounded-[9px] border shadow-sm max-w-[345px] xl:max-w-[600px] flex flex-col xl:flex-row bg-white">
       <CardImg {...props.imageProps} />
-      <div className="p-7">
+      <div className="p-7 xl:px-8 xl:py-9">
         <CardTag tag={props.tag} />
         <CardTitle title={props.title} />
         <CardDescription description={props.description} />
         <Price
           currentPrice={props.currentPrice}
           oldPrice={props.oldPrice}
-          className="pb-8"
+          className="pb-7 xl:pb-8"
         />
         <Button text={props.buttonText} />
       </div>
